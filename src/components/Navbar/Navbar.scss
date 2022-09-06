@@ -1,7 +1,8 @@
 @import "../../index.scss";
 .navbar {
-    background: $mainBlack;
+    background: $mainWhite;
     padding: 0.5rem 1rem;
     display: grid;
     grid-template-columns: auto 1fr;
+    border-bottom: 2px solid black;
 }

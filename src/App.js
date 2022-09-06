@@ -2,10 +2,10 @@
 import {Route,Switch} from 'react-router-dom';
 import './App.scss'
 
-import AllRestaraunts from './components/landing/AllRestaraunts';
-import NewRestaraunts from './components/landing/NewRestaraunts';
-import Login from './components/landing/Login';
- import Navbar from './components/landing/Navbar/Navbar';
+import AllRestaraunts from './components/AllRestaraunt/AllRestaraunt';
+import NewRestaraunts from './components/NewRestaraunt/NewRestaraunt';
+import Login from './components/Login/Login';
+ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
