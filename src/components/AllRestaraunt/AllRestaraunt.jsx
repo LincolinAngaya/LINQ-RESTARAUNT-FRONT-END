@@ -15,6 +15,9 @@ function AllRestaraunts() {
      <RestarauntItem />
      <RestarauntItem />
      <RestarauntItem />
+     <RestarauntItem />
+     <RestarauntItem />
+     <RestarauntItem />
     
     </div>
     </>
