@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 // import './App.scss'
 import '../Navbar/Navbar.scss'
 
-import logo from '../../assets/logo.jpg'
+import logo from '../../assets/logo.png'
 
 
 function Navbar() {
@@ -13,7 +13,7 @@ function Navbar() {
     
 
    
-    <img src={logo} alt="linq logo" width="130" height="124" />
+    <img src={logo} alt="linq logo" width="130" height="130" />
   
    
       <ul className='nav-links'>
