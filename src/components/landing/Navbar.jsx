@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../../assets/logo.jpg'
 
 
 function Navbar() {
   return (
     <>
-    <div>Navbar</div>
+    <div><img src={logo} /></div>
     <nav>
       <ul>
         <li>
