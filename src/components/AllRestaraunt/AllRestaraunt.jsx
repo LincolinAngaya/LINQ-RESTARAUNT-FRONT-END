@@ -25,6 +25,7 @@ const heading = {
 
     <div style={myStyle}>
      <h1 style={heading}>All Restaraunts</h1> 
+     <RestarauntItem />
     </div>
   )
 }
