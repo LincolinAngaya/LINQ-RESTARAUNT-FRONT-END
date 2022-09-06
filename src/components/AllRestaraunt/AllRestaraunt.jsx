@@ -1,3 +1,4 @@
+import { AutoComplete } from 'antd';
 import React from 'react'
 
 import '../AllRestaraunt/AllRestaraunt.scss'
@@ -6,27 +7,30 @@ import '../AllRestaraunt/AllRestaraunt.scss'
 
 function AllRestaraunts() {
 
-  const myStyle={
-    
-      width: '100%',
-      height: '100vh',
-      backgroundImage:'linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url("https://media.smallbiztrends.com/2021/07/restaurant-name.png")',
-      backgroundSize: 'cover',
-      backgroundPosition:'center',
-};
 
 const heading = {
-  color:"white",
+  color:"blue",
   fontSize:"2.4rem",
   padding:"9px"
 
 }
-  return (
+const restarauntlist ={
+   width:"70vw",
+   margin: "0 Auto",
+   padding:"2rem 0",
+   background:"red",
 
-    <div style={myStyle}>
-     <h1 style={heading}>All Restaraunts</h1> 
+
+}
+  return (
+    <>
+    <h1 style={heading}>All Restaraunts</h1> 
+    <div style={restarauntlist}>
+     
      <RestarauntItem />
+    
     </div>
+    </>
   )
 }
 
