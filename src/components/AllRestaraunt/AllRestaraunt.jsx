@@ -17,7 +17,7 @@ const heading = {
 const restarauntlist ={
    width:"70vw",
    margin: "0 Auto",
-   padding:"2rem 0",
+   padding:"2rem ",
    background:"red",
 
 

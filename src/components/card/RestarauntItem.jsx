@@ -9,16 +9,16 @@ function RestarauntItem() {
       width="200"
       src ="https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=400"  alt="Miami" />
       <span className='close-btn'>
-         <i class="material-symbols-outlined">cancel_presentation</i>
+         <i className="material-symbols-outlined">cancel_presentation</i>
       </span>
     </div>
 
     <div className='restaraunt-info'>
       <h3>City</h3>
       <h4>Name</h4>
-      <h5>phone no</h5>
+      <h4>phone no</h4>
       <h6>
-        info{""}
+        overview{""}
         <span>
              <i className="material-symbols-outlined">expand_more</i>
         </span>
