@@ -7,7 +7,8 @@ import Searchbox from './Searchbox'
 
 function Navbar() {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-blue border border-primary'>
+   
+     <nav className='navbar navbar-expand-lg navbar-light bg-blue border border-primary'>
     <div className='container-fluid'>
 
     <div className='navbar-brand'>
@@ -30,7 +31,7 @@ function Navbar() {
        <Searchbox />
 
     </div>
-    </nav>
+    </nav> 
     
   )
 }
