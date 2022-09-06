@@ -25,6 +25,8 @@ function RestarauntItem() {
         </h6>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima eos corrupti velit, deserunt repellendus. 
         </p>
+
+        <comment />
     </div>
     
 

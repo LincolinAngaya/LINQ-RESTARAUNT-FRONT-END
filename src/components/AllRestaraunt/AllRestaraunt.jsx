@@ -7,26 +7,13 @@ import '../AllRestaraunt/AllRestaraunt.scss'
 
 function AllRestaraunts() {
 
-
-const heading = {
-  color:"blue",
-  fontSize:"2.4rem",
-  padding:"9px"
-
-}
-const restarauntlist ={
-   width:"70vw",
-   margin: "0 Auto",
-   padding:"2rem ",
-   background:"red",
-
-
-}
   return (
     <>
-    <h1 style={heading}>All Restaraunts</h1> 
-    <div style={restarauntlist}>
+    <h1 className='heading'>All Restaraunts</h1> 
+    <div className='restarauntlist'>
      
+     <RestarauntItem />
+     <RestarauntItem />
      <RestarauntItem />
     
     </div>
