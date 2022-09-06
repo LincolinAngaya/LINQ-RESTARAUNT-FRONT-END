@@ -28,9 +28,7 @@ function Navbar() {
           <Link className="nav-link" to="/login">Log In</Link>
         </li>
       </ul>   
-     
-
-  
+   
     </nav> 
     
   )
