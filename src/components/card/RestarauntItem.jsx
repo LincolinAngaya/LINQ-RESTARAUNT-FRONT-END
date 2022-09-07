@@ -4,7 +4,7 @@ import Reviews from '../Reviews/ReviewApp'
 
 
 function RestarauntItem() {
-
+const  [showReview, SetShowReview] = useState(false)
   
   return (
     <article className='tour'>
@@ -12,9 +12,9 @@ function RestarauntItem() {
      <img 
       width="200"
       src ="https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=400"  alt="Miami" />
-      <span className='close-btn'>
+      {/* <span className='close-btn'>
          <i className="material-symbols-outlined">cancel_presentation</i>
-      </span>
+      </span> */}
     </div>
 
     <div className='restaraunt-info'>
@@ -24,10 +24,9 @@ function RestarauntItem() {
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima eos corrupti velit, deserunt repellendus. 
         </p>
       <div className='rbutton'>
-        <button>Add Review</button>
-  
+        <button onClick = {() =>SetShowReview(!showReview)}> {showReview ? "Hide Review" : "Show Review"}</button>
         </div>
-        <Reviews    />
+       {showReview &&  <Reviews    />} 
          
     
     </div>
