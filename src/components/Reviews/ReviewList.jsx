@@ -3,9 +3,13 @@ import Review from './Reviewmsg'
 
 function ReviewList() {
   return (
-    <div>
+    <div className="list">
+    <ul>
       
-    </div>
+      <Review />
+     
+    </ul>
+  </div>
   )
 }
 
