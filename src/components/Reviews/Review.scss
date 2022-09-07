@@ -10,3 +10,28 @@ main {
     transition: all 0.5s;
     box-shadow: 5px 5px 15px -6px #8c8c8c;
 }
+
+form.edit-message {
+    display: flex;
+    flex-direction: column;
+}
+
+form.edit-message input[type="text"] {
+    margin-top: 1.0rem;
+    border: 1px solid blue;
+    background-color: white;
+    height: 35px;
+}
+
+
+/*review list edit */
+
+form.edit-message input[type="text"]:focus {
+    border: 1px solid blue;
+}
+
+form.edit-message input[type="submit"] {
+    margin-top: 1.0rem;
+    width: 100px;
+    font-size: 20px;
+}

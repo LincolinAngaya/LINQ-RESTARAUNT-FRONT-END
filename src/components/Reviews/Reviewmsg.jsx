@@ -3,7 +3,7 @@ import EditReview from './EditReview'
 
 function Review() {
   return (
-    <div>Review</div>
+    <EditReview />
   )
 }
 
