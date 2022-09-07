@@ -17,14 +17,15 @@ function RestarauntItem() {
       <h3>City</h3>
       <h4>Name</h4>
       <h4>phone no</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima eos corrupti velit, deserunt repellendus. 
+        </p>
       <h6>
         overview{""}
         <span>
              <i className="material-symbols-outlined">expand_more</i>
         </span>
         </h6>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima eos corrupti velit, deserunt repellendus. 
-        </p>
+       
 
         <comment />
     </div>
