@@ -8,6 +8,10 @@ function ReviewList() {
     <ul>
       
       <Review />
+      <Review />
+      <Review />
+      <Review />
+      <Review />
      
     </ul>
   </div>
