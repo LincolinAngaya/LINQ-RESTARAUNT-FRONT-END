@@ -23,10 +23,10 @@ function RestarauntItem() {
       <h4>phone no</h4>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima eos corrupti velit, deserunt repellendus. 
         </p>
-      <h6 >
+      <div className='rbutton'>
         <button>Add Review</button>
   
-        </h6>
+        </div>
         <Reviews    />
          
     
