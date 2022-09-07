@@ -1,5 +1,6 @@
 import React from 'react'
 import '../card/Card.scss'
+import Reviews from '../Reviews/ReviewApp'
 
 function RestarauntItem() {
   return (
@@ -30,6 +31,8 @@ function RestarauntItem() {
         <comment />
     </div>
     
+
+    <Reviews />
 
     </article>
     
