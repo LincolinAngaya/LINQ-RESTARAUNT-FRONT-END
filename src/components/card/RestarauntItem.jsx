@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{ useState }from 'react'
 import '../card/Card.scss'
 import Reviews from '../Reviews/ReviewApp'
 
+
 function RestarauntItem() {
+
+  
   return (
     <article className='tour'>
    <div className='img-container'>
@@ -20,19 +23,16 @@ function RestarauntItem() {
       <h4>phone no</h4>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima eos corrupti velit, deserunt repellendus. 
         </p>
-      <h6>
-        overview{""}
-        <span>
-             <i className="material-symbols-outlined">expand_more</i>
-        </span>
+      <h6 >
+        <button>Add Review</button>
+  
         </h6>
-       
-
-        <comment />
+        <Reviews    />
+         
+    
     </div>
     
 
-    <Reviews />
 
     </article>
     
