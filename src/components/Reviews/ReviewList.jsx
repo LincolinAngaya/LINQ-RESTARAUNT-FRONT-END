@@ -1,5 +1,6 @@
 import React from 'react'
 import Review from './Reviewmsg'
+import '../Reviews/Review.scss'
 
 function ReviewList() {
   return (

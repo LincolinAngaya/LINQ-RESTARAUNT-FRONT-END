@@ -1,8 +1,17 @@
 import React from 'react'
+import '../Reviews/Review.scss'
 
 function NewReviews() {
   return (
-    <div>NewReviews</div>
+    <form className="new-message" >
+      <input
+        type="text"
+        name="body"
+        autoComplete="off"
+        
+      />
+      <button type="submit">Send</button>
+    </form>
   )
 }
 
