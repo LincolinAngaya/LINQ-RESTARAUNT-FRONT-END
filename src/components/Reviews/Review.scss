@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    max-width: 320px;
+    height: 400px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 15px -6px #8c8c8c;
+}

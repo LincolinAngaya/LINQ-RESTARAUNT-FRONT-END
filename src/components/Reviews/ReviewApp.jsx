@@ -1,13 +1,15 @@
 import React from 'react'
+
+import '../Reviews/Review.scss'
 import ReviewList from './ReviewList'
 import NewReviews from './NewReviews'
 function Reviews() {
   return (
-    <div>
-      <ReviewList/>
+    <main>
+    <ReviewList/>
      
     <NewReviews/>
-    </div>
+    </main>
   )
 }
 
