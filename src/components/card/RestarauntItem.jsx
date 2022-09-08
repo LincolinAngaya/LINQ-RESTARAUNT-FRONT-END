@@ -17,7 +17,7 @@ function RestarauntItem({restaraunts}) {
       image = {restaraunt.image_url}
       name = {restaraunt.name}
       location = {restaraunt.location}
-      phone_no = {restaraunt.phone_no}
+      phone_no = {restaraunt.phone_number}
       description = {restaraunt.description}
       /> )}
    

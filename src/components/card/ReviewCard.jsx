@@ -16,9 +16,10 @@ function ReviewCard({location, name, phone_no, description, image}) {
     </div>
 
     <div className='restaraunt-info'>
-      <h3>{location}</h3>
+      
       <h4>{name}</h4>
-      <h4>{phone_no}</h4>
+      <h3>{location}</h3>
+      <h4 className='colorred'>0{phone_no}</h4>
       <p>{description} </p>
        <div className='rbutton'>
 
