@@ -24,7 +24,8 @@ function Navbar() {
           <Link className="nav-link" to="/new-restaraunt">New Restaraunt</Link>
         </li>
         <li>
-          <Link className="nav-link" to="/login">Log In</Link>
+          <Link className="nav-link" to="/login">Sign In</Link>/
+          <Link className="nav-link" to="/sign-up">Sign up</Link>
         </li>
       </ul>   
    
