@@ -21,7 +21,7 @@ function Navbar() {
           <Link  className="nav-link" to="/">Home</Link>
         </li>
         <li >
-          <Link className="nav-link" to="/new-restaraunt">New Restaraunt</Link>
+          <Link className="nav-link" to="/login">New Restaraunt</Link>
         </li>
         <li>
           <Link className="nav-link" to="/login">Sign In</Link>/
