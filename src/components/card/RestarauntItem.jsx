@@ -1,7 +1,7 @@
 import React from 'react'
 import '../card/Card.scss'
 import ReviewCard from './ReviewCard'
-// import Reviews from '../Reviews/ReviewApp'
+//  import Reviews from '../Reviews/ReviewApp'
 
 
 function RestarauntItem({restaraunts}) {
@@ -19,9 +19,10 @@ function RestarauntItem({restaraunts}) {
       location = {restaraunt.location}
       phone_no = {restaraunt.phone_number}
       description = {restaraunt.description}
+      reviews = {restaraunt.reviews}
+     
       /> )}
-   
-    {/* {showReview &&  <Reviews    />}  */}
+     
     </>
   )
 }

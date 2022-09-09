@@ -1,12 +1,16 @@
-import React, { useState }from 'react'
+
+import React, { useState } from 'react'
+// import Reviews from '../Reviews/ReviewApp'
 
 import '../card/Card.scss'
+import '../Reviews/Review.scss'
 
-function ReviewCard({location, name, phone_no, description, image}) {
+function ReviewCard({location, name, phone_no, description, image,reviews}) {
 
-    const [show, setShow]=useState(true)
+     const [show, setShow] = useState(false)
 
   return (
+
     <article className='tour' >
       <div className='img-container'>
      <img 
@@ -21,12 +25,34 @@ function ReviewCard({location, name, phone_no, description, image}) {
       <h3>{location}</h3>
       <h4 className='colorred'>0{phone_no}</h4>
       <p>{description} </p>
+
        <div className='rbutton'>
 
-        <button onClick={() => setShow(!show)}>{show ? "Show Review" : "Hide Review" }</button>
-          </div>
-        </div>
+            <button onClick={() => setShow(!show)}>{show ? "Show Review" : "Hide Review" }</button>
+      </div>  
+    </div>  
+{show &&  <main>
+      
+    
+      <div className="list" >
+      <ul>
+        {reviews.map((review) => 
+       
+  <li key = {review.id}>
+ 
+       <span className="user">{review.user.username}</span>
+       <span className="time">{review.user.created_at}</span>
+ 
+        <p>{review.comment}</p> 
+        </li>   
+       )} 
+        </ul>
+ </div> 
+
+       </main>  }
+     
     </article>
+    
   )
 }
 
