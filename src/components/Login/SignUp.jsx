@@ -27,26 +27,55 @@ function SignUp() {
         }  
       }
 
+      function handleCreateAccountAlert(responseData = {}){
+        if(Object.values(responseData)[0] === "Admin already Exists"){
+            alert("Admin email already exists, please Login!")
+            history.replace("/")   
+        }
+        else{
+           alert("Account Created successfully!")
+           history.replace("/login")   
+        }
+    }
 
+
+    function handleCreateAccount(event){
+        event.preventDefault()
+        const newAdmin = {
+            firstname: firstname,
+            lastname : lastname,
+            email: email.toLowerCase(), 
+            password: password
+        }
+        fetch("http://localhost:9292/create-account", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            }, 
+            body: JSON.stringify(newAdmin)
+        })
+        .then(response => response.json())
+        .then(responseData => handleCreateAccountAlert(responseData));
+    }
   return (
     <div className='card1'>
-    <form className='form1' >
+    <form className='form1' onSubmit={handleCreateAccount} >
     
     <div className='control1'>
             <label htmlFor='text'>First Name</label>
-            <input type="text"  required id="username" />
+            <input type="text" name="firstname" value ={firstname} required id="firstname" onChange={handleOnChange} />
         </div>
         <div className='control1'>
             <label htmlFor='text'>Last Name</label>
-            <input type="text"  required id="username" />
+            <input type="text" name="lastname" value ={lastname} required id="lastname" onChange={handleOnChange} />
         </div>
         <div className='control1'>
             <label htmlFor='text'>Email</label>
-            <input type="text"  required id="username" />
+            <input type={"email"} name="email"  value={email} required onChange={handleOnChange}/>
         </div>
         <div className='control1'>
             <label htmlFor='password'>Password</label>
-            <input type="password"  required id="password" />
+            <input type={"password"} name="password" value={password} required onChange={handleOnChange}/>
         </div>
         <div className='actions1'>
             <button>Sign Up</button>
