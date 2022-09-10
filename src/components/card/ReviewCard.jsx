@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 
 import '../card/Card.scss'
 import '../Reviews/Review.scss'
+import EnterReview from '../Reviews/reviewcomment'
 
 function ReviewCard({location, name, phone_no, description, image,reviews}) {
 
@@ -57,19 +58,10 @@ function ReviewCard({location, name, phone_no, description, image,reviews}) {
        
         </ul>
  </div> 
- <form className="new-message"  >
-      <input
-        type="text"
-        name="body"
-        autoComplete="off"
+ <EnterReview />
 
-        
-      />
-      <button type="submit">Send</button>
-    </form>
        </main> 
         }
-     
     </article>
     
   )
