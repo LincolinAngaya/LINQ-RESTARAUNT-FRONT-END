@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-// import Reviews from '../Reviews/ReviewApp'
+import EnterReview from '../Reviews/reviewcomment'
 
 import '../card/Card.scss'
 import '../Reviews/Review.scss'
@@ -48,17 +48,7 @@ function ReviewCard({location, name, phone_no, description, image,reviews}) {
        )} 
         </ul>
  </div> 
- <form className="new-message"  >
-      <input
-        type="text"
-        name="body"
-        autoComplete="off"
-        // value={comment}
-        // onChange={(e) => setComment(e.target.value)}
-        
-      />
-      <button type="submit">Send</button>
-    </form>
+ <EnterReview />
        </main> 
         }
      
