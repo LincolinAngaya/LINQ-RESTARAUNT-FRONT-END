@@ -1,13 +1,16 @@
 
 import React, { useState } from 'react'
-import EnterReview from '../Reviews/reviewcomment'
+
+// import Reviews from '../Reviews/ReviewApp'
 
 import '../card/Card.scss'
 import '../Reviews/Review.scss'
+import EnterReview from '../Reviews/reviewcomment'
 
 function ReviewCard({location, name, phone_no, description, image,reviews}) {
 
      const [show, setShow] = useState(false)
+
 
   return (
 
@@ -41,15 +44,18 @@ function ReviewCard({location, name, phone_no, description, image,reviews}) {
   <li key = {review.id}>
  
        <span className="user">{review.user.username}</span>
-       <span className="time">{review.user.created_at.slice(0, 10)}</span>
+       <span className="time">{review.user.created_at.slice(0,10)}</span>
  
         <p>{review.comment}</p> 
         </li>   
        )} 
+       
         </ul>
+   <EnterReview   />
  </div> 
- <EnterReview />
+
        </main> 
+       
         }
      
     </article>
