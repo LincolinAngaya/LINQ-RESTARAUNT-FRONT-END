@@ -5,6 +5,7 @@ import React from 'react'
 import '../AllRestaraunt/AllRestaraunt.scss'
 
  import RestarauntItem from '../card/RestarauntItem';
+import NewRestaraunts from '../NewRestaraunt/NewRestaraunt';
 
 function AllRestaraunts() {
 
@@ -35,6 +36,10 @@ function AllRestaraunts() {
           });
         },[]);
 
+
+        function handleAddReview(newReview) {
+          setLoadedRestaraunts([...loadedRestaraunts, newReview]);
+      }
  
 
    if (isLoading){

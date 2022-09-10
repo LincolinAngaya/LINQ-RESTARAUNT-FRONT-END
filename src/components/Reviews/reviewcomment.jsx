@@ -1,12 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../Reviews/Review.scss'
 function EnterReview() {
-  
-       const [reviewComment, setReviewComment] = useState();
 
-    
   return (
-    <form className="new-message" >
+    <form className="new-message"  >
       <input
         type="text"
         name="body"

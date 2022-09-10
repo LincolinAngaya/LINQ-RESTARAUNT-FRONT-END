@@ -1,16 +1,13 @@
 
 import React, { useState } from 'react'
-
 // import Reviews from '../Reviews/ReviewApp'
 
 import '../card/Card.scss'
 import '../Reviews/Review.scss'
-import EnterReview from '../Reviews/reviewcomment'
 
 function ReviewCard({location, name, phone_no, description, image,reviews}) {
 
      const [show, setShow] = useState(false)
-
 
   return (
 
@@ -49,13 +46,19 @@ function ReviewCard({location, name, phone_no, description, image,reviews}) {
         <p>{review.comment}</p> 
         </li>   
        )} 
-       
         </ul>
-   <EnterReview   />
  </div> 
+ <form className="new-message"  >
+      <input
+        type="text"
+        name="body"
+        autoComplete="off"
 
+        
+      />
+      <button type="submit">Send</button>
+    </form>
        </main> 
-       
         }
      
     </article>
