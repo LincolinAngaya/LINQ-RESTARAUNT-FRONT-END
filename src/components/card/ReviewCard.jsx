@@ -41,7 +41,7 @@ function ReviewCard({location, name, phone_no, description, image,reviews}) {
   <li key = {review.id}>
  
        <span className="user">{review.user.username}</span>
-       <span className="time">{review.user.created_at}</span>
+       <span className="time">{review.user.created_at.slice(0, 10)}</span>
  
         <p>{review.comment}</p> 
         </li>   
