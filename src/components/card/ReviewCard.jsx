@@ -44,8 +44,17 @@ function ReviewCard({location, name, phone_no, description, image,reviews}) {
        <span className="time">{review.user.created_at.slice(0,10)}</span>
  
         <p>{review.comment}</p> 
+        
         </li>   
        )} 
+     <li>
+      
+     <span className="user">lincolin</span>
+       <span className="time">2022-09-11</span> 
+      <p>new review</p>
+      
+      </li>
+       
         </ul>
  </div> 
  <form className="new-message"  >
