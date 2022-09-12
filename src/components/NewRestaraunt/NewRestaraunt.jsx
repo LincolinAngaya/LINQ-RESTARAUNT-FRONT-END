@@ -9,7 +9,7 @@ function NewRestaraunts() {
     const history = useHistory();
 
     function addRestarauntHandler(restarauntDetails){
-        fetch('http://localhost:9292/restaraunts',
+        fetch('https://linq-restaraunt.herokuapp.com/restaraunts',
         {
          method:'POST',
          body:JSON.stringify(restarauntDetails),

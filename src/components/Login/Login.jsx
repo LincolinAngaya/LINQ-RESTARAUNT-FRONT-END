@@ -29,7 +29,7 @@ function handleOnSubmit(event){
   }
 
   event.preventDefault()
-  fetch("http://localhost:9292/login", {
+  fetch("https://linq-restaraunt.herokuapp.com/login", {
       method: "POST",
       headers: {
           "Content-Type": "application/json"

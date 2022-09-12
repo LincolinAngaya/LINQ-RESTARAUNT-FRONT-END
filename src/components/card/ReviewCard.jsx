@@ -1,10 +1,12 @@
 
 import React, { useState } from 'react'
-// import Reviews from '../Reviews/ReviewApp'
 
 import '../card/Card.scss'
+
+
 import '../Reviews/Review.scss'
 import EnterReview from '../Reviews/reviewcomment'
+
 
 function ReviewCard({location, name, phone_no, description, image,reviews}) {
 
@@ -43,25 +45,29 @@ function ReviewCard({location, name, phone_no, description, image,reviews}) {
  
        <span className="user">{review.user.username}</span>
        <span className="time">{review.user.created_at.slice(0,10)}</span>
- 
         <p>{review.comment}</p> 
+  </li> 
         
-        </li>   
        )} 
+     
      <li>
-      
-     <span className="user">lincolin</span>
-       <span className="time">2022-09-11</span> 
-      <p>new review</p>
-      
-      </li>
-       
-        </ul>
- </div> 
- <EnterReview />
 
-       </main> 
-        }
+ <span className="user">lincolin</span>
+    <span className="time">12-09-2022</span>
+
+     <p>come</p> 
+
+ </li>
+        
+  
+    </ul>       
+     </div> 
+     <EnterReview />
+ </main> 
+ 
+       
+}
+        
     </article>
     
   )

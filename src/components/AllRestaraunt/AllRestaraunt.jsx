@@ -5,7 +5,6 @@ import React from 'react'
 import '../AllRestaraunt/AllRestaraunt.scss'
 
  import RestarauntItem from '../card/RestarauntItem';
-import NewRestaraunts from '../NewRestaraunt/NewRestaraunt';
 
 function AllRestaraunts() {
 
@@ -14,7 +13,7 @@ function AllRestaraunts() {
   
         useEffect(() => {
            setIsLoading(true)
-          fetch('http://localhost:9292/restaraunts')
+          fetch('https://linq-restaraunt.herokuapp.com/restaraunts')
 
           .then(response => {
            return response.json();

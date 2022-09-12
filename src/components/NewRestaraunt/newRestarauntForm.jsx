@@ -55,7 +55,7 @@ function NewRestarauntForm(props) {
         </div>
         <div className='control'>
             <label htmlFor='description'>Restaraunt Description</label>
-            <textarea id="description" required rows='5'  ref={descriptionInputRef} />
+            <textarea id="description" required rows='5'   ref={descriptionInputRef} />
         </div>
         <div className='actions'>
             <button>Add New Restaraunt</button>

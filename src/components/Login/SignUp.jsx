@@ -47,7 +47,7 @@ function SignUp() {
             email: email.toLowerCase(), 
             password: password
         }
-        fetch("http://localhost:9292/create-account", {
+        fetch("https://linq-restaraunt.herokuapp.com/create-account", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
