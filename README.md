@@ -6,8 +6,7 @@ Link restaurant   application  enable managers  of the  restaurant add new resta
   ## website deployment date
     12th September 2022
   ## backend deployment link
-  (https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-    (https://https://github.com/LincolinAngaya/phase-3-sinatra-react-project)
+ (https://https://github.com/LincolinAngaya/phase-3-sinatra-react-project)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
