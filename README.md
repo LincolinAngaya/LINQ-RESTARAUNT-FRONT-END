@@ -43,7 +43,7 @@ As a user of the application,you will be able to :
 3. user will also be able to add new restaraunt details.
 4. customers will be able to post different reviews based on the quality services offered 
 
-## how the form section works|
+## how the sign up form section works|
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
 |  Enter your firstname  |   Lincolin  |     |
@@ -51,23 +51,27 @@ As a user of the application,you will be able to :
 |  Enter your email  |   Lincolin@gmail.com |     |
 | Enter your Email Address  | lincolinangaya5626@gmail.com | 
 |  Enter your password  |   ********|     |
-| Enter your credentials|  to the questions | |  results  | |  e.t.c  | 
 | Press sign up to go to another page| |
 
-## how the form section works|
+## how the sign in form section works|
 |  enter your email |   lincolin@gmail.com|     |
 |  Enter your password  |   ********|     |
+| Press sign in to go to another page| |
 
-## how the form section works|
+## how the new restaraunt  form section works|
+| Behaviour      | Input        | Output       |
+| :------------- | :----------: | -----------: |
 |  Enter your image_url  |   image_url  |     |
 |  Enter your restaraunt name  |   Larry Dishes |     |
-|  Eenter location  |   Kiambu |     |
-| Enter your phone number  | 0748923137 | 
+|  Eenter location  |   Kiambu |     |  |
+| Enter your phone number  | 0748923137 | |
 |  Enter your desriptiom  |   welcome to our restaraunt|     |
-| Press add new restaraunt to go to home  page| |
+| Press add new restaraunt to go to home  page|   |
 
-## how the form section works|
-| Enter your review |  to the questions | |  results  | |  e.t.c  | 
+## how the reviews form section works|
+| Behaviour      | Input        | Output       |
+| :------------- | :----------: | -----------: |
+| Enter your review |  to the restaraunt | |  results  | |  e.t.c  | 
 | Press send to go to home  page| |
 
  ###  Requirements
