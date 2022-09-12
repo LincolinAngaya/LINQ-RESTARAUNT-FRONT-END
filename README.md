@@ -5,6 +5,8 @@ Link restaurant   application  enable managers  of the  restaurant add new resta
   Lincolin Angaya
   ## website deployment date
     12th September 2022
+  ## backend deployment link
+    (https://https://github.com/LincolinAngaya/phase-3-sinatra-react-project)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
@@ -91,7 +93,7 @@ Copyright © 2022; Lincoln Angaya.Inc.
 
 ### Deployment
 
-This section has moved here: (https://front-end-gamma-seven.vercel.app/))
+This section has moved here: (https://front-end-gamma-seven.vercel.app/)
 This section has moved here:(https://linq-restaraunt.herokuapp.com/endpoints)
 
 ### `npm run build` fails to minify
