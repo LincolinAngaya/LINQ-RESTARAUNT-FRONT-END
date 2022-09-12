@@ -1,65 +1,89 @@
-# Getting Started with Create React App
+# Linq restaraunt application
+Link restaurant   application  enable managers  of the  restaurant add new restaurant in the application and provide   its details. The clients who have been in the restaraunt  added before can add experience or review on the restaraunt based on nthe services offerd, Therefore it will help restaraunt managers improve services based on the reviews by the customers.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ## Developed by:
+  Lincolin Angaya
+  ## website deployment date
+    12th September 2022
+ ## Table of Content
+ - [Description](#description)
+ - [Features](#features)
+  - [Languages](#languages)
+ - [how the form section works](#how the form section works)
+ - [Requirements](#requirements)
+ - [Installation Process](#installation-Process)
+ - [Live Link](#Live-Link)
+ - [Technology  Used](#technology-Used)
+ - [Licence](#licence)
+ - [Authors Info](#Authors-Info)
+ ## Description
+Link restaurant   application  enable managers  of the  restaurant add new restaurant in the application and provide   its details. The clients who have been in the restaraunt  added before can add experience or review on the restaraunt based on nthe services offerd, Therefore it will help restaraunt managers improve services based on the reviews by the customers.The website has thrre parts.
+ <ul>
+  <li><b>home page</b>- it is a page used to dispay the restaraunt that has been added by the managers in the application.
+  <br>
+  it has show/hide review section where customers can review testaraunt based on the services offered
+ </li>
+ <li><b>sign up page</b>- it is a page that enables new restaraunt managers to add new personal details to enable him or her to add the restaraunt.</li>
+ <li><b>sign in page</b>- it is used to validate user input by providing the correct credentials so that he/she can log to add new restaraunt </li>
+ <li><b>new restaraunt page</b>- it is used to add capture each every details of the restaraunt so that it can be rendered on the home page </li>
+  </ul>
+  ## Language
+  <ol>
+  <li>React</li>
+  <li>Ruby</li>
+  <li>Sinatra</li>
 
-## Available Scripts
+  </ol>
+  
+  
+## Features
+As a user of the application,you will be able to :
+3.New users will add their new personal details in order to log in.
+1.enter your credentials in order to log in.
+3. user will also be able to add new restaraunt details.
+4. customers will be able to post different reviews based on the quality services offered 
 
-In the project directory, you can run:
+## how the form section works|
+| Behaviour      | Input        | Output       |
+| :------------- | :----------: | -----------: |
+|  Enter your firstname  |   Lincolin  |     |
+|  Enter your lastname  |   Angaya |     |
+|  Enter your email  |   Lincolin@gmail.com |     |
+| Enter your Email Address  | lincolinangaya5626@gmail.com | 
+|  Enter your password  |   ********|     |
+| Enter your credentials|  to the questions | |  results  | |  e.t.c  | 
+| Press sign up to go to another page| |
 
-### `npm start`
+## how the form section works|
+|  enter your email |   lincolin@gmail.com|     |
+|  Enter your password  |   ********|     |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## how the form section works|
+|  Enter your image_url  |   image_url  |     |
+|  Enter your restaraunt name  |   Larry Dishes |     |
+|  Eenter location  |   Kiambu |     |
+| Enter your phone number  | 0748923137 | 
+|  Enter your desriptiom  |   welcome to our restaraunt|     |
+| Press add new restaraunt to go to home  page| |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## how the form section works|
+| Enter your review |  to the questions | |  results  | |  e.t.c  | 
+| Press send to go to home  page| |
 
-### `npm test`
+ ###  Requirements
+ * Access to  a computer or any other gargdet(laptop,tablet and phone)
+ * Access to  stable internet
+ ### Installation Process
+ ****
+* Clone to the repo :https://github.com/LincolinAngaya/LINQ-RESTARAUNT-FRONT-END
+ ###  Requirements
+* the server link  repo : git clone https://https://github.com/LincolinAngaya/phase-3-sinatra-react-project
+## Known Bugs:
+No bugs are reported so far. Noticed any bug? KIndly contact me on lincolinangaya5626@gmail.com
+## Legal and Copyright:
+This Application is license under the MIT licence. Get more info on my github account
+Copyright © 2022; Lincoln Angaya.Inc.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
